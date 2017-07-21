@@ -1,0 +1,16 @@
+000 = CMDLNfl binary Hx11 ln 4
+001 = CMDLNfl binary Hx11 ln 5
+010 = CMDLNfl binary Hx11 ln 6
+011 = CMDLNfl binary Hx11 ln 3
+100 = /
+101 = CMDLNfl binary Hx11 ln 11
+110 = CMDLNfl binary Hx11 ln 10
+111 = CMDLNfl binary Hx11 ln 1
+000 = if
+oo+ = else
+00- = ans true
+00* = ans false
+00/ = loop x
+oo\ = loop y
+00| = func
+001 = end
