@@ -1,0 +1,256 @@
+01 = CMDLNfl binary Hx11 ln 1
+10 = CMDLNfl binary Hx11 ln 4
+11 = CMDLNfl binary Hx11 ln 15
+00 = CMDLNfl binary Hx11 ln 19
+1&1&1&1 = CMDLNfl binary Hx11 ln 21
+1&1&1&0 = CMDLNfl binary Hx11 ln 22
+1&1&0&1 = CMDLNfl binary Hx11 ln 23
+1&1&0&0 = CMDLNfl binary Hx11 ln 25
+1&0&1&1 = CMDLNfl binary Hx11 ln 26
+1&0&1&0 = CMDLNfl binary Hx11 ln 27
+1&0&0&1 = CMDLNfl binary Hx11 ln 32
+1&0&0&0 = CMDLNfl binary Hx11 ln 36
+0&1&1&1 = CMDLNfl binary Hx11 ln 40
+0&1&1&0 = CMDLNfl binary Hx11 ln 44
+0&1&0&1 = CMDLNfl binary Hx11 ln 56
+0&1&0&0 = CMDLNfl binary Hx11 ln 64
+0&0&1&1 = CMDLNfl binary Hx11 ln 67
+0&0&1&0 = CMDLNfl binary Hx11 ln 68
+0&0&0&1 = CMDLNfl binary Hx11 ln 46
+0&0&0&0 = CMDLNfl binary Hx11 ln 256
+1^1&1&1 = CMDLNsw 1111111 into 2FFFFFF
+1^1&1&0 = CMDLNsw 3111111 into 4FFFFFF
+1^1&0&1 = CMDLNsw 5111111 into 6FFFFFF
+1^1&0&0 = CMDLNsw 7111111 into 8FFFFFF
+1^0&1&1 = CMDLNsw 9111111 into 0FFFFFF
+1^0&1&0 = CMDLNsw A111111 into BFFFFFF
+1^0&0&1 = CMDLNsw C111111 into DFFFFFF
+1^0&0&0 = CMDLNsw E111111 into FFFFFFF
+0^1&1&1 = CMDLNsw FFFFFFF into E111111
+0^1&1&0 = CMDLNsw DFFFFFF into C111111
+0^1&0&1 = CMDLNsw BFFFFFF into A111111
+0^1&0&0 = CMDLNsw 0FFFFFF into 9111111
+0^0&1&1 = CMDLNsw 8FFFFFF into 7111111
+0^0&1&0 = CMDLNsw 6FFFFFF into 5111111
+0^0&0&1 = CMDLNsw 4FFFFFF into 3111111
+0^0&0&0 = CMDLNsw 2FFFFFF into 1111111
+1&1^1&1 = Syn Err 1
+1&1^1&0 = Syn Err 2
+1&1^0&1 = Syn Err 3
+1&1^0&0 = Syn Err 4
+1&0^1&1 = Syn Err 5
+1&0^1&0 = Syn Err 6
+1&0^0&1 = Syn Err 7
+1&0^0&0 = Syn Err 8
+0&1^1&1 = Syn Err 9
+0&1^1&0 = Syn Err 0
+0&1^0&1 = Syn Err A
+0&1^0&0 = Syn Err B
+0&0^1&1 = Syn Err C
+0&0^1&0 = Syn Err D
+0&0^0&1 = Syn Err E
+0&0^0&0 = Syn Err F
+1^1^1^1 = CMDLNfl binary Hx11 ln 218
+1^1^1^0 = CMDLNfl binary Hx11 ln 226
+1^1^0^0 = CMDLNfl binary Hx11 ln 217
+1^0^0^0 = CMDLNfl binary Hx11 ln 133
+0^0^0^0 = CMDLNfl binary Hx11 ln 253
+Syn Err 1 & Syn Err 2 = MBR fl missed
+Syn Err 1 & Syn Err 3 = bt dvc mfnctnd
+Syn Err 1 & Syn Err 4 = sys unrspsv
+Syn Err 1 & Syn Err 5 = bt fl missed
+Syn Err 1 & Syn Err 6 = bt fl unrspsv
+Syn Err 1 & Syn Err 7 = bt fl corrptd
+Syn Err 1 & Syn Err 8 = acc lgn lckd
+Syn Err 1 & Syn Err 9 = acc lgn dn1ot5
+Syn Err 1 & Syn Err 0 = acc lgn dn2ot5
+Syn Err 1 & Syn Err A = acc lgn dn3ot5
+Syn Err 1 & Syn Err B = acc lgn dn4ot5
+Syn Err 1 & Syn Err C = acc usrnm sspdd
+Syn Err 1 & Syn Err D = acc usrnm unexstd
+Syn Err 1 & Syn Err E = acc auth otdtd
+Syn Err 1 & Syn Err F = WLAN unrspsv
+Syn Err 2 & Syn Err 3 = bt dvc unrspsv
+Syn Err 2 & Syn Err 4 = sys corrptd
+Syn Err 2 & Syn Err 5 = bt fl dwngrdd
+Syn Err 2 & Syn Err 6 = bt fl otdtd
+Syn Err 2 & Syn Err 7 = bt fl imcmptb
+Syn Err 2 & Syn Err 8 = syspkgmngr missed
+Syn Err 2 & Syn Err 9 = syspkgmngr unrspsv
+Syn Err 2 & Syn Err 0 = syspkgmngr corrptd
+Syn Err 2 & Syn Err A = syspkgmngr dwngrdd
+Syn Err 2 & Syn Err B = syspkgmngr otdtd
+Syn Err 2 & Syn Err C = syspkgmngr imcmptb
+Syn Err 2 & Syn Err D = sysupgrdmngr missed
+Syn Err 2 & Syn Err E = acc auth imcmptb
+Syn Err 2 & Syn Err F = WLAN ovrcrwdd
+Syn Err 3 & Syn Err 4 = sys imcmptb
+Syn Err 3 & Syn Err 5 = sys otdtd
+Syn Err 3 & Syn Err 6 = sysupgrd unrspsv
+Syn Err 3 & Syn Err 7 = sysupgrd corrptd
+Syn Err 3 & Syn Err 8 = sysupgrd imcmptb
+Syn Err 3 & Syn Err 9 = sysupgrd otdtd
+Syn Err 3 & Syn Err 0 = sysupgrdmngr unrspsv
+Syn Err 3 & Syn Err A = sysupgrdmngr corrptd
+Syn Err 3 & Syn Err B = sysupgrdmngr sspdd
+Syn Err 3 & Syn Err C = sysupgrdmngr dscontd
+Syn Err 3 & Syn Err D = sysupgrdmngr dwngrdd
+Syn Err 3 & Syn Err E = acc auth sspdd
+Syn Err 3 & Syn Err F = WLAN wknd
+Syn Err 4 & Syn Err 5 = sys dscontnd
+Syn Err 4 & Syn Err 6 = sysupgrdmngr otdtd
+Syn Err 4 & Syn Err 7 = sysupgrdmngr imcmptb
+Syn Err 4 & Syn Err 8 = sysupgrdmngr dscontnd
+Syn Err 4 & Syn Err 9 = tlkt msdevd
+Syn Err 4 & Syn Err 0 = tlkt missed
+Syn Err 4 & Syn Err A = tlkt unrspsv
+Syn Err 4 & Syn Err B = tlkt corrptd
+Syn Err 4 & Syn Err C = tlkt dwndtd
+Syn Err 4 & Syn Err D = tlkt dwngrdd
+Syn Err 4 & Syn Err E = acc auth bnnd
+Syn Err 4 & Syn Err F = WLAN imcmptb
+Syn Err 5 & Syn Err 6 = tlkt otdtd
+Syn Err 5 & Syn Err 7 = tlkt imcmptb
+Syn Err 5 & Syn Err 8 = tlkt dscontnd
+Syn Err 5 & Syn Err 9 = tklt bnnd
+Syn Err 5 & Syn Err 0 = tklt lckddwn
+Syn Err 5 & Syn Err A = appn msdevd
+Syn Err 5 & Syn Err B = appn missed
+Syn Err 5 & Syn Err C = appn unrspsv
+Syn Err 5 & Syn Err D = appn corrptd
+Syn Err 5 & Syn Err E = WLAN lckddwn w/o acc usrnm rsp
+Syn Err 5 & Syn Err F = WLAN lckddwn w/ acc usrnm sspdd
+Syn Err 6 & Syn Err 7 = appn dwndtd
+Syn Err 6 & Syn Err 8 = appn dwngrdd
+Syn Err 6 & Syn Err 9 = appn otdtd
+Syn Err 6 & Syn Err 0 = appn imcmptb
+Syn Err 6 & Syn Err A = appn dscontnd
+Syn Err 6 & Syn Err B = appn bnnd
+Syn Err 6 & Syn Err C = appn lckddwn
+Syn Err 6 & Syn Err D = secud cmprmmsd
+Syn Err 6 & Syn Err E = WLAN lckddwn w/ acc usrnm bnnd
+Syn Err 6 & Syn Err F = WLAN lckddwn w/ acc usrnm clsddwn
+Syn Err 7 & Syn Err 8 = secud msachvd
+Syn Err 7 & Syn Err 9 = secud msdevd
+Syn Err 7 & Syn Err 0 = secud missed
+Syn Err 7 & Syn Err A = secud unrspsv
+Syn Err 7 & Syn Err B = secud corrptd
+Syn Err 7 & Syn Err C = secud dwndtd
+Syn Err 7 & Syn Err D = secud dwngrdd
+Syn Err 7 & Syn Err E = LAN unrspsv
+Syn Err 7 & Syn Err F = LAN ovrcrwdd
+Syn Err 8 & Syn Err 9 = secud otdtd
+Syn Err 8 & Syn Err 0 = secud imcmptb
+Syn Err 8 & Syn Err A = secud dscontnd
+Syn Err 8 & Syn Err B = secud sspdd
+Syn Err 8 & Syn Err C = secud bnnd
+Syn Err 8 & Syn Err D = secud lckddwn
+Syn Err 8 & Syn Err E = LAN wknd
+Syn Err 8 & Syn Err F = Lan imcmptb
+Syn Err 9 & Syn Err 0 = secud clsddwn
+Syn Err 9 & Syn Err A = secud rplcd
+Syn Err 9 & Syn Err B = accud unactvtd
+Syn Err 9 & Syn Err C = accud unpaid
+Syn Err 9 & Syn Err D = accud undclrd
+Syn Err 9 & Syn Err E = LAN lckddwn w/o acc usrnm rsp
+Syn Err 9 & Syn Err F = LAN lckddwn w/ acc usrnm sspdd
+Syn Err 0 & Syn Err A = accud mrgd
+Syn Err 0 & Syn Err B = accud cmprmmsd
+Syn Err 0 & Syn Err C = accud msachvd
+Syn Err 0 & Syn Err D = accud msdevd
+Syn Err 0 & Syn Err E = LAN lckddwn w/ acc usrnm bnnd
+Syn Err 0 & Syn Err F = LAN lckddwn w/ acc usrnm clsddwn
+Syn Err A & Syn Err B = accud missed
+Syn Err A & Syn Err C = accud unrspsv
+Syn Err A & Syn Err D = accud corrptd
+Syn Err A & Syn Err E = accud dwndtd
+Syn Err A & Syn Err F = accud dwngrdd
+Syn Err B & Syn Err C = accud otdtd
+Syn Err B & Syn Err D = accud imcmptb
+Syn Err B & Syn Err E = accud dscontnd
+Syn Err B & Syn Err F = accud sspdd
+Syn Err C & Syn Err D = accud bnnd
+Syn Err C & Syn Err E = accud lckddwn
+Syn Err C & Syn Err F = accud clsddwn
+Syn Err D & Syn Err E = accud rplcd
+Syn Err D & Syn Err F = CMDLNrb missed
+Syn Err E & Syn Err F = CMDLNpo mfnctnd
+CMDLNsw fl binary Hx12 ln 56 into fl binary Hx11 ln 133 = pkg instltn dwngrdd into prv vsn
+CMDLNsw fl binary Hx12 ln 56 into fl binary Hx11 ln 253 = pkg sync dwngrdd into prv vsn
+CMDLNsw fl binary Hx11 ln 133 into fl binary Hx12 ln 57 = pkg instltn upgrdd into avbl vsn
+CMDLNsw fl binary Hx11 ln 253 into fl binary Hx12 ln 57 = pkg sync upgrdd into avbl vsn
+CMDLNsc fl binary Hx11 = mdd adm mdf udt binary Hx11.mdfd
+CMDLNsc fl binary Hx12 = mdd adm mdf udt binary Hx12.mdfd
+CMDLNsc fl kl-dos.exe = mdd adm mdf udt kl-dos.exe
+CMDLNsc fl kl-ux.tar.gz = mdd adm mdf udt kl-ux.tar.gz
+CMDLNsc fl update_scsys.tar.Z = mdd adm mdf udt update_scsys.tar.Z
+CMDLNdl pkg mdfd = mdd adm adn udt mdfd
+CMDLNdl pkg exe = mdd adm adn udt exe
+CMDLNdl pkg 7zip = mdd adm adn udt 7zip
+CMDLNdl pkg tar.gz = mdd adm adn udt tar.gz
+CMDLNdl pkg tar.Z = mdd adm adn udt tar.Z
+CMDLNdl pkg rpm = mdd adm adn udt rpm
+CMDLNsc fl bootA
+CMDLNsc fl bootB
+CMDLNsc fl bootC
+CMDLNsc fl bootD
+CMDLNsc fl bootE
+CMDLNsc fl bootF
+CMDLNdc fl bootA
+CMDLNdc fl bootB
+CMDLNdc fl bootC
+CMDLNdc fl bootD
+CMDLNdc fl bootE
+CMDLNdc fl bootF
+CMDLNpo fl bootA
+CMDLNpo fl bootB
+CMDLNpo fl bootC
+CMDLNpo fl bootD
+CMDLNpo fl bootE
+CMDLNpo fl bootF
+CMDLNdl fl bootA
+CMDLNdl fl bootB
+CMDLNdl fl bootC
+CMDLNdl fl bootD
+CMDLNdl fl bootE
+CMDLNdl fl bootF
+if rd fl kl-dos.exe --> 100%, dl fl bootA
+if dl fl bootA --> 100%, sc fl bootA
+if sc fl bootA --> 100%, dl fl binary Hx11.mdfd
+if dl fl binary Hx11.mdfd --> 100%, rd binary Hx11.mdfd
+if rd fl binary Hx11.mdfd --> 100%, dl fl bootB
+if dl fl bootB --> sc fl bootB
+if sc fl bootB --> 100%, dl fl binary Hx12.mdfd
+if dl fl binary Hx12.mdfd --> 100%, rd fl binary Hx12.mdfd
+if rd fl binary Hx12.mdfd --> 100%, dl fl bootC
+if dl fl bootC --> 100%, sc fl bootC
+if sc fl bootC --> 100%, LXsu
+if LXsu acc auth succdd --> dl fl bootD
+if dl fl bootD --> 100%, sc fl bootD
+if sc fl bootD --> 100%, LX kl-ux
+if fl kl-ux ldd --> 100%, dl fl bootE
+if dl fl bootE --> 100%, sc fl bootE
+if sc fl bootE --> 100%, dl fl bootloader.sys
+if dl fl bootloader.sys --> 100%, rd fl bootloader.sys
+if rd fl bootloader.sys --> 100%, dl fl bootF
+if dl fl bootF --> 100%, sc fl bootF
+if sc fl bootF --> 100%, dl fl install.ectb
+if dl fl install.ectb --> 100%, rd fl install.ectb
+if sys unrspsv, dc fl bootF
+if sys corrptd, dc fl bootD
+if sys imcmptb, dc fl bootC
+if sys otdtd, dc fl bootB
+if sys dscontnd, dc fl bootA
+if fl install.ectb rd err, dc fl bootE
+if ntfs partition, rd ntfs
+if minix parttion, rd minix
+if bsd-free partition, rd bsd-free
+if linux ext2 partition, rd linux ext2
+if linux ext3 partition, rd linux ext3
+if linux ext4 partition, rd linux ext4
+if linux reiserfs partition, rd linux reiserfs
+if solaris2 partition, rd solaris2
+if sun spark partition, rd sun spark
+if apple software partition partition, rd apple software partition
+if befs partition, rd befs
+if kl-ux mtlv1 lv1 partition, wr partition kl-ux mtlv1 lv1
