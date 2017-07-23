@@ -1,0 +1,41 @@
+000 = CMDLNfl binary Hx11 ln 4
+001 = CMDLNfl binary Hx11 ln 5
+010 = CMDLNfl binary Hx11 ln 6
+011 = CMDLNfl binary Hx11 ln 3
+100 = /
+101 = CMDLNfl binary Hx11 ln 11
+110 = CMDLNfl binary Hx11 ln 10
+111 = CMDLNfl binary Hx11 ln 1
+000 = if
+oo+ = else
+00- = ans true
+00* = ans false
+00/ = loop x
+oo\ = loop y
+00| = func
+001 = end
+0+0 = intg
+0++ = inc
+0+- = main(void)
+0+* = print func
+0+/ = return intg
+0+\ = CMDLNfl binary Hx11 ln 24
+0+| = CMDLNfl binary Hx11 ln 28
+0+1 = CMDLNfl binary Hx11 ln 256
+#inc <stdio.h>
+empty1
+intg main(void)
+{
+    print func ("kl-ux")
+    return 0;
+}
+empty2
+end
+empty3
+exit()
+empty4
+if po, exit(kl-ux)
+empty5
+po
+empty6
+shutdown -P now
